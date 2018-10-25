@@ -12,7 +12,8 @@ $http = new swoole_http_server("0.0.0.0", 9501);
 
 $http->set(
     [
-
+        'document_root' => '/users/henry/swoole/data',
+        'enable_static_handler' => true,
     ]
 );
 
