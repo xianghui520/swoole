@@ -11,20 +11,17 @@
 $ws = new swoole_websocket_server("0.0.0.0", 8812);
 
 //监听WebSocket连接打开事件
-//$ws->on('open', function ($ws, $request) {
-//    var_dump($request->fd, $request->get, $request->server);
-//    $ws->push($request->fd, "hello, welcome\n");
-//});
+$ws->on('open', function ($ws, $request) {
+    echo "已经握手成功";
+    var_dump($request->fd, $request->get, $request->server);
+    $ws->push($request->fd, "hello, welcome\n");
+});
 
-$server->on('open','onOpen');
-function onOpen($server,$request){
-    print_r($request->fd);
-
-}
 
 
 //监听WebSocket消息事件
 $ws->on('message', function ($ws, $frame) {
+    echo "触发了onmessage事件";
     echo "Message: {$frame->data}\n";
     $ws->push($frame->fd, "server: {$frame->data}");
 });
