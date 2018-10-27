@@ -8,7 +8,7 @@
  */
 
 
-$http = new swoole_http_server("0.0.0.0", 9501);
+$http = new swoole_http_server("0.0.0.0", 9500);
 
 $http->set(
     [

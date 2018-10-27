@@ -12,22 +12,24 @@
     var wsServer = 'ws://127.0.0.1:8812';
     var websocket = new WebSocket(wsServer);
     websocket.onopen = function (evt) {
-        console.log("Connected to WebSocket server.");
+        websocket.send("hello-singwa");
+        console.log("connected-ws-success");
     };
 
     websocket.onmessage = function (evt) {
-        console.log('Retrieved data from server: ' + evt.data);
+        console.log('ws-return-data' + evt.data);
     };
+
 
     websocket.onclose = function (evt) {
-        console.log("Disconnected");
+        console.log("close");
     };
-
-
 
     websocket.onerror = function (evt, e) {
-        console.log('Error occured: ' + evt.data);
+        console.log('error:' + evt.data);
     };
+
+
 </script>
 
 

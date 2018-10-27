@@ -20,11 +20,10 @@ $ws->on('open', function ($ws, $request) {
 
 
 //监听WebSocket消息事件
-$ws->on('message', function ($ws, $frame) {
-    echo "触发了onmessage事件";
-    echo "Message: {$frame->data}\n";
-    $ws->push($frame->fd, "server: {$frame->data}");
-});
+    $ws->on('message', function ($ws, $frame) {
+
+        $ws->push($frame->fd, "server:".date("Y-m-d H:i:s",time()));
+    });
 
 //监听WebSocket连接关闭事件
 $ws->on('close', function ($ws, $fd) {
