@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="15b90711-742b-4f92-850d-fa1207b8fb40" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/ws.html" afterPath="$PROJECT_DIR$/data/ws.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/server/http_server.php" afterPath="$PROJECT_DIR$/demo/server/http_server.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/server/ws_server.php" afterPath="$PROJECT_DIR$/demo/server/ws_server.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/server/ws.php" afterPath="$PROJECT_DIR$/demo/server/ws.php" />
     </list>
     <ignored path="swoole.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,30 +28,52 @@
       <file leaf-file-name="ws.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/data/ws.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.454545">
-              <caret line="15" column="44" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
+            <state vertical-scroll-proportion="-11.636364">
+              <caret line="18" column="42" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ws_server.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demo/server/ws_server.php">
+      <file leaf-file-name="read.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo/io/read.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-13.818182">
-              <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+            <state vertical-scroll-proportion="-12.363636">
+              <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
               <folding>
-                <element signature="e#6#84#0#PHP" expanded="true" />
+                <element signature="e#7#100#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ws.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="mysql.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/demo/io/mysql.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.47001225">
+              <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+              <folding>
+                <element signature="e#6#130#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="1.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo/io/1.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ws.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/demo/server/ws.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.295203">
-              <caret line="50" column="42" selection-start-line="50" selection-start-column="42" selection-end-line="50" selection-end-column="42" />
+            <state vertical-scroll-proportion="-7.909091">
+              <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
               <folding>
                 <element signature="e#6#84#0#PHP" expanded="true" />
               </folding>
@@ -100,8 +121,11 @@
         <option value="$PROJECT_DIR$/data/index.html" />
         <option value="$PROJECT_DIR$/demo/server/http_server.php" />
         <option value="$PROJECT_DIR$/demo/server/ws_server.php" />
-        <option value="$PROJECT_DIR$/data/ws.html" />
         <option value="$PROJECT_DIR$/demo/server/ws.php" />
+        <option value="$PROJECT_DIR$/data/ws.html" />
+        <option value="$PROJECT_DIR$/demo/io/1.txt" />
+        <option value="$PROJECT_DIR$/demo/io/read.php" />
+        <option value="$PROJECT_DIR$/demo/io/mysql.php" />
       </list>
     </option>
   </component>
@@ -110,12 +134,14 @@
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
   </component>
+  <component name="PhpServers">
+    <servers />
+  </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="13" />
-    <option name="y" value="38" />
+    <option name="y" value="23" />
     <option name="width" value="1680" />
-    <option name="height" value="943" />
+    <option name="height" value="947" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -173,10 +199,6 @@
               <option name="myItemId" value="demo" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -189,6 +211,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="io" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -267,11 +293,12 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="13" y="38" width="1680" height="943" extended-state="1" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1680" height="947" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12857144" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32915717" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -289,10 +316,19 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="false" />
     <option name="LAST_COMMIT_MESSAGE" value="" />
   </component>
   <component name="XDebuggerManager">
@@ -410,11 +446,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/ws.html">
+    <entry file="file://$PROJECT_DIR$/demo/server/ws_server.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.454545">
-          <caret line="15" column="44" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
-          <folding />
+        <state vertical-scroll-proportion="0.5608856">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding>
+            <element signature="e#6#84#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -428,22 +466,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo/server/ws_server.php">
+    <entry file="file://$PROJECT_DIR$/demo/server/ws.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.818182">
-          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        <state vertical-scroll-proportion="-7.909091">
+          <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
           <folding>
             <element signature="e#6#84#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo/server/ws.php">
+    <entry file="file://$PROJECT_DIR$/data/ws.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.295203">
-          <caret line="50" column="42" selection-start-line="50" selection-start-column="42" selection-end-line="50" selection-end-column="42" />
+        <state vertical-scroll-proportion="-11.636364">
+          <caret line="18" column="42" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/io/1.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/io/read.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.363636">
+          <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
           <folding>
-            <element signature="e#6#84#0#PHP" expanded="true" />
+            <element signature="e#7#100#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/io/mysql.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.47001225">
+          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+          <folding>
+            <element signature="e#6#130#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>

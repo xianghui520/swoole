@@ -10,7 +10,7 @@
 class WS{
 
     public $ws=null;
-    public $port=8812;
+    public $port=8813;
     public $host="0.0.0.0";
 
     public function __construct()
@@ -39,7 +39,15 @@ class WS{
      *
      */
     public function onOpen($ws,$request){
+
         var_dump($request->fd);
+        if($request->fd == 1){
+
+            //每隔2s执行一次
+            swoole_timer_tick(2000,function($timer_id){
+                echo "2s:timerId:{$timer_id}\n";
+            });
+        }
 
     }
 
@@ -50,12 +58,18 @@ class WS{
      */
     public function onMessage($ws,$frame){
 
+        //接受客户端传递过来的信息
         echo "push-info:{$frame->data}\n";
         //TODO 10s
         $data=[
             'task'=>1,
             'fd'=>$frame->fd,
         ];
+        swoole_timer_after("5000",function() use ($ws,$frame){
+            echo "5s-after\n";
+            $ws->push($frame->fd,"server-timer-after:");
+        });
+
         $ws->task($data);
         //推送消息到客户端
         $ws->push($frame->fd, "server:".date("Y-m-d H:i:s",time()));
